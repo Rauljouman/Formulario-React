@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.is-invalid {
+  border-color: red !important; /* Asegura que el borde rojo se aplique */
+}
+
+.is-invalid:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 0, 0, 0.25) !important; /* Mantiene el borde rojo cuando el campo está enfocado */
+}
+
+.text-danger {
+  font-size: 0.875rem; /* Para hacer que los mensajes de error sean más pequeños */
+  margin-top: 0.25rem;
+}
